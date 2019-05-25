@@ -1,3 +1,4 @@
+version: '1.0.1'
 isValidIpv4: 'Địa chỉ Ipv4'
 isValidIpv6: 'Địa chỉ Ipv6'
 isClass: 'Đ/c lớp: '
