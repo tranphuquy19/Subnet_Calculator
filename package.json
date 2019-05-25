@@ -1,0 +1,24 @@
+{
+  "name": "ip_calculator",
+  "version": "1.0.0",
+  "description": "Subnet Calulator",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \"server is runing\" && npm install && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ip",
+    "subnet"
+  ],
+  "author": "tranphuquy19",
+  "license": "MIT",
+  "dependencies": {
+    "ip-class": "^1.0.1",
+    "ip-utils": "^2.4.0",
+    "netmask": "^1.0.6",
+    "netparser": "^1.4.0",
+    "split-string": "^6.1.0",
+    "yaml": "^1.6.0"
+  }
+}
