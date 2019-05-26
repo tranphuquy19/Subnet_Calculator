@@ -6,7 +6,7 @@ const ip_class = require('ip-class')
 const netpatser = require('netparser')
 
 //change your commands here!
-var command = '10.0.0.0/12 -bm'
+var command = '1088:0000:0000:0000:0008:0800:200C:463A/73'
 
 
 console.log(calc(command))
@@ -110,7 +110,7 @@ function calc() {
         }
         else if (ip.isValidIpv6(_ad1_ip)) {
             results += yml.isValidIpv6
-            results += '\n' + yml.addBase + '\t' + netpatser.base(_ad1)
+            results += '\n' + yml.addBase + '\t' + netpatser.baseAddress(_ad1)
             results += '\n' + yml.shortForm + '\t' + netpatser.ip(_ad1_ip)
             return results
         }
